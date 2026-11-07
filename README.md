@@ -5,7 +5,7 @@
 Code and replication files for the paper submitted to the International Journal of Advances in Data and Information Systems (IJADIS).
 
 ## Data
-The tweets come from IDNHoaxCorpus [repository URL], which is not redistributed here.
+The tweets come from IDNHoaxCorpus [https://github.com/9uz/IDNHoaxCorpus/blob/main/dataset/datasetUMPOHoax.csv], which is not redistributed here.
 Please download it from the original repository and cite the corpus papers listed there.
 Tweet times are obtained by decoding the Snowflake ID in each tweet URL:
 timestamp_ms = (tweet_id >> 22) + 1288834974657
