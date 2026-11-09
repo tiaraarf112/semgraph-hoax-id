@@ -25,20 +25,6 @@ Tweets labeled "?" are removed. Timestamps are obtained by decoding the Snowflak
 4. Run the notebook from top to bottom (five seeds: 42, 123, 2024, 7, 999). Outputs are written to `/kaggle/working/artifacts`.
 5. Compare the notebook output with the files in `replication/`.
 
-## Where the paper results come from
-
-| Paper item | Notebook section |
-|---|---|
-| Graph construction, homophily (Table 5) | Sections 9, 10 |
-| TGNN and its two controls | Section 15B |
-| Table 3 and Table 4 | Sections 17B, 18, 35 |
-| Figure 7 (confusion matrices, mean of five seeds) | Section 18B |
-| Figure 6 (validation curves) | Section 19 |
-| Neighbor composition, graph structure | Section 22 |
-| Sensitivity to K and threshold | Section 26 |
-| Longer patience (30) as a robustness check | Section 30C |
-| Files in `replication/` | Section 34 |
-
 ## Files in replication/
 
 - `nodes_split_snapshot.csv`: node_id, waktu_posting (the timestamp decoded from the tweet ID), label (0 = valid, 1 = hoax), split, snapshot. It does not contain tweet text.
