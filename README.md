@@ -12,7 +12,7 @@ timestamp_ms = (tweet_id >> 22) + 1288834974657
 
 ## How to reproduce
 1. Download the original dataset and place it where the notebook expects it.
-2. Run notebook/final-ab-revision-v7.ipynb from top to bottom (five seeds: 42, 123, 2024, 7, 999).
+2. Run notebook/final-revision-v7.ipynb from top to bottom (five seeds: 42, 123, 2024, 7, 999).
 3. Compare the notebook output with the files in replication/.
 
 ## Files in replication/
